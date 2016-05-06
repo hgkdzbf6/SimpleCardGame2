@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="game.com.zbf.utils.MyComponent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAACCAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\utils\MyComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Cost" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAACAAAAAAAAABAAAgAAAAACIAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\Cost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Health" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAACAAAAAAAAABAAAgAAAAACIAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\Health.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Attack" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAACAAAAAAAAABAAAgAAAAACIAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\Attack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Armor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAACAAAAAAAAABAAAgAAAAACIAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\Armor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Name" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAACAAAAAAAAABAAAgAAAAACIAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\Name.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="IComponent" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\utils\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICardInfo">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\cardInfo\ICardInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="INumProperty">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\INumProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IProperty&lt;T, S&gt;">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAgAAAAACIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\Property.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITextProperty">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\property\ITextProperty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IWeaponInfo">
+    <Position X="9.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\cardInfo\IWeaponInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMinionInfo">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\cardInfo\IMinionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISpellInfo">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\cardInfo\ISpellInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IEntityInfo">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAACQAAAAAABAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\game\com\zbf\cardInfo\IEntityInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICard" Collapsed="true">
+    <Position X="18.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\card\Card.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IFind" Collapsed="true">
+    <Position X="20.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\engine\IFind.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICharacter">
+    <Position X="20" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\character\ICharacter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IHero">
+    <Position X="18.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\character\IHero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IPower" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\character\IPower.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IInfo">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\cardInfo\IInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IHeroInfo">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\character\IHeroInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICharacterInfo">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\game\com\zbf\character\ICharacterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMinion">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\card\IMinion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IWeapon">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\card\IWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISpell">
+    <Position X="23.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>ISpell.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CARD_TYPE" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAgAABAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\game\com\zbf\enum\CARD_TYPE.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CHARACTER_STATUS" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAoIAAAAEAACAAAAAAAAABAAgA=</HashCode>
+      <FileName>Assets\game\com\zbf\enum\CHARACTER_STATUS.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
